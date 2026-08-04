@@ -37,3 +37,43 @@ frontend-moderno/data/
 /dist/
 /respaldos_codigo/
 /respaldos/
+# Base de datos y archivos reales
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Documentos de pacientes
+documentos/
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Variables privadas
+.env
+.env.*
+
+# React
+frontend-moderno/node_modules/
+frontend-moderno/dist/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+main_legacy.py
